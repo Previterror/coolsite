@@ -21,6 +21,7 @@ main {
 
 .special-heading {
     color: var(--bright);
+    font-weight: lighter;
 }
 
 .link-list {
