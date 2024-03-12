@@ -3,5 +3,86 @@
     --button: #1C4BC4;
     --light: #F4F6F8;
     --bright: #FAFD61;
+    --gray: #a1b6b9;
+}
 
+body {
+    background-color: var(--primary);
+    color: var(--light);
+    flex-direction: column;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    height: 100dvh;
+}
+
+main {
+    margin-left: 20px;
+    padding: 2em;
+}
+
+.special-heading {
+    color: var(--bright);
+}
+
+.link-list {
+    background-color: var(--light);
+    font-size: 16;
+    padding: 2em;
+}
+
+header {
+    padding: 1em;
+    display: flex;
+    height: 2.2em;
+}
+
+.contact-links {
+    text-decoration: unset;
+    color: var(--light);
+}
+
+img {
+    object-fit: none;
+}
+
+button {
+    background-color: var(--button);
+    border: unset;
+    cursor: pointer;
+    color: var(--light);
+    border-radius: 10px;
+    padding: .65em;
+}
+
+footer {
+    background-color: var(--gray);
+    color: var(--primary);
+    flex-direction: column;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.mr-1 {
+    margin-right: 1em;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-grow {
+    flex-grow: 1;
 }

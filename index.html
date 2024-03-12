@@ -5,21 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cool Site</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <header>
+<body class="display-flex flex-column">
+    <header class="display-flex space-between">
         <img src="coolsite-logo.png" alt="CS2Logo">
         <div>
-            <a href="">About Us</a>
-            <a href="">Services</a>
-            <button>Let's Chat</button>
+            <a class="contact-links mr-1" href="">ABOUT US</a>
+            <a class="contact-links mr-1" href="">SERVICES</a>
+            <button>LET'S CHAT</button>
         </div>
     </header>
 
-    <main>
+    <main class="display-flex flex-grow">
         <div>
-            <h6 class="special-heading">Services</h6>
+            <h4 class="special-heading">Services</h4>
             <h2>Building web apps that scale to your world wide audience</h2>
             <p>At CS2 we identify the digital divide with additional clickthroughs from DevOps Nanotechnology immersion
                 along the information highway to close the loop on focusing solely on the bottom line.</p>
@@ -28,14 +29,14 @@
         <img src="world.png" alt="World">
     </main>
 
-    <section>
+    <section class="link-list display-flex space-between">
         <a href="">HTML & CSS</a>
         <a href="">Semantic Markup</a>
         <a href="">Responsive Design</a>
         <a href="">Accessibility Standards</a>
     </section>
 
-    <footer>
+    <footer class="display-flex align-center">
         <h1>From Ideas to Reality</h1>
         <p>If you can dream it then you can build it with web technology solutions.</p>
     </footer>
